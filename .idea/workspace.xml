@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb1b6af-a3a8-4379-a073-721a0a62f71b" name="Changes" comment="Setting up the base for the Cali Housing model.">
-      <change beforePath="$PROJECT_DIR$/data/CAhousing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/housing.csv" afterDir="false" />
+    <list default="true" id="2fb1b6af-a3a8-4379-a073-721a0a62f71b" name="Changes" comment="Setting up the base for the Cali Housing model. Fixed the connection string to the housing.csv.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/California_Housing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/California_Housing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773572545492</updated>
-      <workItem from="1773572546573" duration="1856000" />
+      <workItem from="1773572546573" duration="3219000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up the base for the Cali Housing model.">
       <option name="closed" value="true" />
@@ -101,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773574133437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Setting up the base for the Cali Housing model. Fixed the connection string to the housing.csv.">
+      <option name="closed" value="true" />
+      <created>1773574592093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773574592093</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting up the base for the Cali Housing model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up the base for the Cali Housing model." />
+    <MESSAGE value="Setting up the base for the Cali Housing model. Fixed the connection string to the housing.csv." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting up the base for the Cali Housing model. Fixed the connection string to the housing.csv." />
   </component>
 </project>
