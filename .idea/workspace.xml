@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb1b6af-a3a8-4379-a073-721a0a62f71b" name="Changes" comment="Added in the sklearn libraries for training,testing an evaluating the linear regression model, model_selection(for training and testing), linear_model(linearRegression model definition),preprocessing(scale linear models features), and metrics(evaluate the models performance).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2fb1b6af-a3a8-4379-a073-721a0a62f71b" name="Changes" comment="Added in the accuracy_score(not that useful with a linear regression model). We defined the X(Training features) and Y(Expected output feature) variables.&#10;split the training data by 80/20. Scaled and standardized the data, by fit AND transform on training data, and only transform on test (never fit!). Defined our linear regression model, fit the training data to the model, then ran a model prediction on the X_test data, then we went on to visualize the predicted data and the training data to see a comparison...">
       <change beforePath="$PROJECT_DIR$/models/California_Housing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/California_Housing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Shotza247"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Shotza247/California_Housing.git",
+    "accountId": "af0b0f15-ed3a-4879-84d6-aa03ebdd48ad"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -94,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773572545492</updated>
-      <workItem from="1773572546573" duration="22444000" />
+      <workItem from="1773572546573" duration="23070000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up the base for the Cali Housing model.">
       <option name="closed" value="true" />
@@ -176,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773648217668</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added in the accuracy_score(not that useful with a linear regression model). We defined the X(Training features) and Y(Expected output feature) variables.&#10;split the training data by 80/20. Scaled and standardized the data, by fit AND transform on training data, and only transform on test (never fit!). Defined our linear regression model, fit the training data to the model, then ran a model prediction on the X_test data, then we went on to visualize the predicted data and the training data to see a comparison...">
+      <option name="closed" value="true" />
+      <created>1773654194659</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1773654194659</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +221,7 @@
     <MESSAGE value="Create the data imputation strategy using the KnnImputer, built a copy of the original df then made sure that the ML imputation approach was successful, and updated the df table to handle the newly imputed columns. Added the Feature engineering title as well as used the One-Hot encoder since it's the best practice for logistic and linear regression models." />
     <MESSAGE value="Replaced the old cols in df with the newly filled cols from the new_col_list in the df_temp, moved the new features to show after the correlation map/heatmap before engineering them." />
     <MESSAGE value="Added in the sklearn libraries for training,testing an evaluating the linear regression model, model_selection(for training and testing), linear_model(linearRegression model definition),preprocessing(scale linear models features), and metrics(evaluate the models performance)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added in the sklearn libraries for training,testing an evaluating the linear regression model, model_selection(for training and testing), linear_model(linearRegression model definition),preprocessing(scale linear models features), and metrics(evaluate the models performance)." />
+    <MESSAGE value="Added in the accuracy_score(not that useful with a linear regression model). We defined the X(Training features) and Y(Expected output feature) variables.&#10;split the training data by 80/20. Scaled and standardized the data, by fit AND transform on training data, and only transform on test (never fit!). Defined our linear regression model, fit the training data to the model, then ran a model prediction on the X_test data, then we went on to visualize the predicted data and the training data to see a comparison..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added in the accuracy_score(not that useful with a linear regression model). We defined the X(Training features) and Y(Expected output feature) variables.&#10;split the training data by 80/20. Scaled and standardized the data, by fit AND transform on training data, and only transform on test (never fit!). Defined our linear regression model, fit the training data to the model, then ran a model prediction on the X_test data, then we went on to visualize the predicted data and the training data to see a comparison..." />
   </component>
 </project>
