@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb1b6af-a3a8-4379-a073-721a0a62f71b" name="Changes" comment="Replaced the old cols in df with the newly filled cols from the new_col_list in the df_temp, moved the new features to show after the correlation map/heatmap before engineering them.">
+    <list default="true" id="2fb1b6af-a3a8-4379-a073-721a0a62f71b" name="Changes" comment="Added in the sklearn libraries for training,testing an evaluating the linear regression model, model_selection(for training and testing), linear_model(linearRegression model definition),preprocessing(scale linear models features), and metrics(evaluate the models performance).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/California_Housing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/California_Housing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,9 @@
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
       "repository"
+    ],
+    "GitStage.ChangesTree.GroupingKeys": [
+      "repository"
     ]
   }
 }]]></component>
@@ -91,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773572545492</updated>
-      <workItem from="1773572546573" duration="19012000" />
+      <workItem from="1773572546573" duration="19653000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up the base for the Cali Housing model.">
       <option name="closed" value="true" />
@@ -165,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773640659962</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added in the sklearn libraries for training,testing an evaluating the linear regression model, model_selection(for training and testing), linear_model(linearRegression model definition),preprocessing(scale linear models features), and metrics(evaluate the models performance).">
+      <option name="closed" value="true" />
+      <created>1773648217668</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1773648217668</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +200,7 @@
     <MESSAGE value="Created a simple visualization using matplotlib to see how the median_house_value distribution looks like, and added a range of visuals to see the distributions of all the other columns this allows me to easily spot outliers, and this further supports the statistical values found in our df.describe(). I added in a heatmap, but i had to specify the focus of the heatmap as my table has text/string values within our proximity to ocean column. Note that the heatmap shows the correlation between my columns, values closer to 0 show a low correlation but for values closer to 1 that means those features are highly related. With all this said we can see that households and populations, total_bedrooms, and total_rooms have a high correlation, this means that the households are influenced by the population, the number of total beds and total rooms (this speaks volumes from an analysts point-of-view)." />
     <MESSAGE value="Create the data imputation strategy using the KnnImputer, built a copy of the original df then made sure that the ML imputation approach was successful, and updated the df table to handle the newly imputed columns. Added the Feature engineering title as well as used the One-Hot encoder since it's the best practice for logistic and linear regression models." />
     <MESSAGE value="Replaced the old cols in df with the newly filled cols from the new_col_list in the df_temp, moved the new features to show after the correlation map/heatmap before engineering them." />
-    <option name="LAST_COMMIT_MESSAGE" value="Replaced the old cols in df with the newly filled cols from the new_col_list in the df_temp, moved the new features to show after the correlation map/heatmap before engineering them." />
+    <MESSAGE value="Added in the sklearn libraries for training,testing an evaluating the linear regression model, model_selection(for training and testing), linear_model(linearRegression model definition),preprocessing(scale linear models features), and metrics(evaluate the models performance)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added in the sklearn libraries for training,testing an evaluating the linear regression model, model_selection(for training and testing), linear_model(linearRegression model definition),preprocessing(scale linear models features), and metrics(evaluate the models performance)." />
   </component>
 </project>
