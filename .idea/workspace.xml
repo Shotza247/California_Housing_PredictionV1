@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb1b6af-a3a8-4379-a073-721a0a62f71b" name="Changes" comment="Created a simple visualization using matplotlib to see how the median_house_value distribution looks like, and added a range of visuals to see the distributions of all the other columns this allows me to easily spot outliers, and this further supports the statistical values found in our df.describe(). I added in a heatmap, but i had to specify the focus of the heatmap as my table has text/string values within our proximity to ocean column. Note that the heatmap shows the correlation between my columns, values closer to 0 show a low correlation but for values closer to 1 that means those features are highly related. With all this said we can see that households and populations, total_bedrooms, and total_rooms have a high correlation, this means that the households are influenced by the population, the number of total beds and total rooms (this speaks volumes from an analysts point-of-view).">
+    <list default="true" id="2fb1b6af-a3a8-4379-a073-721a0a62f71b" name="Changes" comment="Create the data imputation strategy using the KnnImputer, built a copy of the original df then made sure that the ML imputation approach was successful, and updated the df table to handle the newly imputed columns. Added the Feature engineering title as well as used the One-Hot encoder since it's the best practice for logistic and linear regression models.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/California_Housing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/California_Housing.ipynb" afterDir="false" />
     </list>
@@ -91,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773572545492</updated>
-      <workItem from="1773572546573" duration="13511000" />
+      <workItem from="1773572546573" duration="16267000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up the base for the Cali Housing model.">
       <option name="closed" value="true" />
@@ -149,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773577291902</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create the data imputation strategy using the KnnImputer, built a copy of the original df then made sure that the ML imputation approach was successful, and updated the df table to handle the newly imputed columns. Added the Feature engineering title as well as used the One-Hot encoder since it's the best practice for logistic and linear regression models.">
+      <option name="closed" value="true" />
+      <created>1773586825642</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1773586825642</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +180,7 @@
     <MESSAGE value="Added in EDA process, to understand the data schema, statistical features, and identifying the which column has null values within our dataset." />
     <MESSAGE value="Created a simple visualization using matplotlib to see how the median_house_value distribution looks like, and added a range of visuals to see the distributions of all the other columns this allows me to easily spot outliers, and this further supports the statistical values found in our df.describe()..." />
     <MESSAGE value="Created a simple visualization using matplotlib to see how the median_house_value distribution looks like, and added a range of visuals to see the distributions of all the other columns this allows me to easily spot outliers, and this further supports the statistical values found in our df.describe(). I added in a heatmap, but i had to specify the focus of the heatmap as my table has text/string values within our proximity to ocean column. Note that the heatmap shows the correlation between my columns, values closer to 0 show a low correlation but for values closer to 1 that means those features are highly related. With all this said we can see that households and populations, total_bedrooms, and total_rooms have a high correlation, this means that the households are influenced by the population, the number of total beds and total rooms (this speaks volumes from an analysts point-of-view)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a simple visualization using matplotlib to see how the median_house_value distribution looks like, and added a range of visuals to see the distributions of all the other columns this allows me to easily spot outliers, and this further supports the statistical values found in our df.describe(). I added in a heatmap, but i had to specify the focus of the heatmap as my table has text/string values within our proximity to ocean column. Note that the heatmap shows the correlation between my columns, values closer to 0 show a low correlation but for values closer to 1 that means those features are highly related. With all this said we can see that households and populations, total_bedrooms, and total_rooms have a high correlation, this means that the households are influenced by the population, the number of total beds and total rooms (this speaks volumes from an analysts point-of-view)." />
+    <MESSAGE value="Create the data imputation strategy using the KnnImputer, built a copy of the original df then made sure that the ML imputation approach was successful, and updated the df table to handle the newly imputed columns. Added the Feature engineering title as well as used the One-Hot encoder since it's the best practice for logistic and linear regression models." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the data imputation strategy using the KnnImputer, built a copy of the original df then made sure that the ML imputation approach was successful, and updated the df table to handle the newly imputed columns. Added the Feature engineering title as well as used the One-Hot encoder since it's the best practice for logistic and linear regression models." />
   </component>
 </project>
