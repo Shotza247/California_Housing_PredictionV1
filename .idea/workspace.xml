@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fb1b6af-a3a8-4379-a073-721a0a62f71b" name="Changes" comment="Added in the sklearn libraries for training,testing an evaluating the linear regression model, model_selection(for training and testing), linear_model(linearRegression model definition),preprocessing(scale linear models features), and metrics(evaluate the models performance).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/California_Housing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/California_Housing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773572545492</updated>
-      <workItem from="1773572546573" duration="19653000" />
+      <workItem from="1773572546573" duration="22444000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up the base for the Cali Housing model.">
       <option name="closed" value="true" />
