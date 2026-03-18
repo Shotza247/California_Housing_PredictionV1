@@ -373,3 +373,4 @@ RMSE (Root Mean Squared Error) → Like MAE but penalises large errors more.
 ---
 
 > *Built as part of a client-scoped data science project. Dataset: California Housing Census (1990). Goal: Predict district-level median house values to support property market decision-making.*
+*Feel free to reach out, Entry-level Data Scientist email: Jabulani.Ndlovu@gmail.com
