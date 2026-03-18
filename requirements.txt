@@ -1,0 +1,16 @@
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
+
+pip freeze | grep -E "numpy|pandas|seaborn|matplotlib|scikit-learn" >> requirements.txt
+```
+
+That will output the exact versions you used, e.g.:
+```
+numpy==1.26.4
+pandas==2.2.1
+seaborn==0.13.2
+matplotlib==3.8.4
+scikit-learn==1.4.2
